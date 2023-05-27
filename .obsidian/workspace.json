@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "6870ceeca1304192",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c275aee0e3469c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ee9818b49388c83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实时渲染/非真实感渲染.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4eeddc795e392eb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实时渲染/实时环境光照/基于图像的光照.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05a6fac70ba4ede6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffb07811d19612b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c95ba8a56556f82a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65be250f99dc97da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef7c153a10c8b1fe",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c5769c75bc0cf56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4bb2d7edde84bfe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "35f876088da50314",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f95636af77833d4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "实时渲染/实时环境光照/基于图像的光照.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "703410e84b43976e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "实时渲染/实时环境光照/基于图像的光照.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "321fe59ec04d5d03",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "98eff42c4e34a307",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "实时渲染/实时环境光照/基于图像的光照.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4eeddc795e392eb7",
+  "lastOpenFiles": [
+    "计算机图形学入门/光线追踪技术/传统光线追踪.md",
+    "实时渲染/实时阴影技术/软阴影.md",
+    "实时渲染/实时环境光照/基于图像的光照.md",
+    "实时渲染/实时环境光照/环境光照的数学基础.md",
+    "计算机图形学入门/材质/高级材质.md",
+    "计算机图形学入门/材质/基于物理的材质.md",
+    "计算机图形学入门/光线追踪技术/高级光线传播.md",
+    "计算机图形学入门/光线追踪技术/辐射度量学.md",
+    "计算机图形学入门/成像.md",
+    "计算机图形学入门/动画.md",
+    "计算机图形学入门/光场.md",
+    "计算机图形学入门/光栅化.md",
+    "计算机图形学入门/颜色.md",
+    "实时渲染/PBR材质/Disney材质模型.md",
+    "实时渲染/PBR材质/微表面模型的着色.md",
+    "实时渲染/PBR材质/微表面模型-Advanced.md",
+    "计算机图形学入门/着色.md",
+    "计算机图形学入门/光线追踪技术/全局光照的计算（路径追踪）.md",
+    "实时渲染/实时环境光照/PRT.md",
+    "实时渲染/非真实感渲染.md",
+    "未命名",
+    "未命名.canvas",
+    "未命名 2.canvas",
+    "2023-05-09.md",
+    "未命名 1.canvas"
+  ]
+}
