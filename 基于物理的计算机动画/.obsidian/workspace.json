@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "31665bf5340eccaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea5aa683aa6f9a73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62df67b0a19a9258",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "574f6069b0f62bf3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "布料模拟/PBD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc3673562d1082d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "99e0449e05b1b8a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21f54733cbb497ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de7b5ff17303e0c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d45d0871b7f8c63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6f8347a6feda4447",
+    "type": "split",
+    "children": [
+      {
+        "id": "61be3d78884e24e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55a593b334d4c36a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "布料模拟/PBD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e2e15a03b90a017",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "布料模拟/PBD.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34c16b430e5cfc98",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6938bd0143adaf1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "布料模拟/PBD.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "21f54733cbb497ab",
+  "lastOpenFiles": [
+    "布料模拟/基于物理的布料模拟.md",
+    "布料模拟/PBD.md",
+    "布料模拟/9.png",
+    "布料模拟/8.png",
+    "布料模拟/7.png",
+    "布料模拟/6.png",
+    "布料模拟/5.png",
+    "布料模拟/4.png",
+    "布料模拟/~$GAMES103-02-math.pptx",
+    "布料模拟/GAMES103-02-math.pptx",
+    "布料模拟/~$GAMES103-05-cloth.pptx",
+    "布料模拟/GAMES103-05-cloth.pptx",
+    "布料模拟/3.png",
+    "布料模拟/2.png",
+    "布料模拟/1.png",
+    "Pasted image 20230623213208.png",
+    "布料模拟"
+  ]
+}
