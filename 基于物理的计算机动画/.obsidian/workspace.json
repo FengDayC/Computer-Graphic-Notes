@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "布料模拟/PBD.md",
+                "file": "布料模拟/基于约束的布料模拟.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "布料模拟/PBD.md",
+                "file": "布料模拟/基于约束的布料模拟.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "布料模拟/PBD.md",
+                "file": "布料模拟/基于约束的布料模拟.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "布料模拟/PBD.md"
+                "file": "布料模拟/基于约束的布料模拟.md"
               }
             }
           }
@@ -158,22 +158,30 @@
   "active": "574f6069b0f62bf3",
   "lastOpenFiles": [
     "布料模拟/基于物理的布料模拟.md",
+    "布料模拟/基于约束的布料模拟.md",
+    "有限元方法/有限元方法.md",
+    "布料模拟/~$GAMES103-07-FEM.pptx",
+    "有限元方法/非线性优化.md",
+    "有限元方法/20.png",
+    "有限元方法/19.png",
+    "有限元方法/18.png",
+    "有限元方法/17.png",
+    "有限元方法/16.png",
+    "有限元方法/15.png",
+    "布料模拟/基于有限元方法的布料模拟.md",
+    "基于有限元方法的布料模拟.md",
+    "19.png",
+    "18.png",
+    "17.png",
+    "16.png",
+    "有限元方法",
+    "新建文件夹",
+    "布料模拟/GAMES103-07-FEM.pptx",
+    "布料模拟/~$GAMES103-05-cloth.pptx",
+    "布料模拟/~$GAMES103-06-constraints.pptx",
     "布料模拟/GAMES103-06-constraints.pptx",
-    "布料模拟/5.png",
-    "布料模拟/PBD.md",
-    "布料模拟/9.png",
-    "布料模拟/8.png",
-    "布料模拟/7.png",
-    "布料模拟/6.png",
-    "布料模拟/4.png",
     "布料模拟/~$GAMES103-02-math.pptx",
     "布料模拟/GAMES103-02-math.pptx",
-    "布料模拟/~$GAMES103-05-cloth.pptx",
-    "布料模拟/GAMES103-05-cloth.pptx",
-    "布料模拟/3.png",
-    "布料模拟/2.png",
-    "布料模拟/1.png",
-    "Pasted image 20230623213208.png",
-    "布料模拟"
+    "布料模拟/GAMES103-05-cloth.pptx"
   ]
 }
