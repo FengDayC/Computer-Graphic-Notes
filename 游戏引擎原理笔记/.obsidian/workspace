@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "8ddf57f054b1230f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f3ea467080ec96e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "物理系统/PBD.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "738d2ebc8e052e6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d79610673547330e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc7f796313517d8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3204bf7999cdfbff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "31ce28b32ed2dbb9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f20a2974cda7eec8",
+    "type": "split",
+    "children": [
+      {
+        "id": "10598eef1c978396",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afeedf34136a4b0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "物理系统/PBD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00cbb9b3b2d4c145",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "物理系统/PBD.md"
+              }
+            }
+          },
+          {
+            "id": "395204e4fa0af83f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "物理系统/PBD.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2202703774f367ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1f3ea467080ec96e",
+  "lastOpenFiles": [
+    "物理系统/物理系统性能优化.md",
+    "物理系统/流体模拟.md",
+    "物理系统/PBD.md",
+    "动画系统/蒙皮动画原理.md",
+    "物理系统/布料模拟.md",
+    "物理系统/布娃娃系统.md",
+    "物理系统/场景破坏.md",
+    "物理系统/场景请求.md",
+    "物理系统/角色控制器.md",
+    "物理系统/载具模拟.md"
+  ]
+}

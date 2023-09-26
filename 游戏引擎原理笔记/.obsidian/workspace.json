@@ -1,39 +1,52 @@
 {
   "main": {
-    "id": "31665bf5340eccaf",
+    "id": "8ddf57f054b1230f",
     "type": "split",
     "children": [
       {
-        "id": "ea5aa683aa6f9a73",
+        "id": "298d6fdf440a58ea",
         "type": "tabs",
         "children": [
           {
-            "id": "574f6069b0f62bf3",
+            "id": "1f3ea467080ec96e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "布料模拟/基于约束的布料模拟.md",
+                "file": "物理系统/布料模拟.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8afea94f82d0b2c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "现代游戏引擎技术/面向数据编程.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bc3673562d1082d0",
+    "id": "738d2ebc8e052e6a",
     "type": "split",
     "children": [
       {
-        "id": "99e0449e05b1b8a1",
+        "id": "d79610673547330e",
         "type": "tabs",
         "children": [
           {
-            "id": "21f54733cbb497ab",
+            "id": "cc7f796313517d8e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +56,7 @@
             }
           },
           {
-            "id": "de7b5ff17303e0c9",
+            "id": "3204bf7999cdfbff",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +71,15 @@
             }
           },
           {
-            "id": "0d45d0871b7f8c63",
+            "id": "31ce28b32ed2dbb9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c09d8eed444b33f5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,60 +93,60 @@
     "width": 300
   },
   "right": {
-    "id": "6f8347a6feda4447",
+    "id": "f20a2974cda7eec8",
     "type": "split",
     "children": [
       {
-        "id": "61be3d78884e24e2",
+        "id": "10598eef1c978396",
         "type": "tabs",
         "children": [
           {
-            "id": "55a593b334d4c36a",
+            "id": "afeedf34136a4b0e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "布料模拟/基于约束的布料模拟.md",
+                "file": "现代游戏引擎技术/面向数据编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8e2e15a03b90a017",
+            "id": "00cbb9b3b2d4c145",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "现代游戏引擎技术/面向数据编程.md"
+              }
+            }
+          },
+          {
+            "id": "395204e4fa0af83f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "布料模拟/基于约束的布料模拟.md",
+                "file": "现代游戏引擎技术/面向数据编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "34c16b430e5cfc98",
+            "id": "2202703774f367ad",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b6938bd0143adaf1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "布料模拟/基于约束的布料模拟.md"
               }
             }
           }
@@ -146,33 +167,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "574f6069b0f62bf3",
+  "active": "8afea94f82d0b2c9",
   "lastOpenFiles": [
-    "布料模拟/基于物理的布料模拟.md",
-    "布料模拟/基于约束的布料模拟.md",
-    "有限元方法/有限元方法.md",
-    "布料模拟/~$GAMES103-07-FEM.pptx",
-    "有限元方法/非线性优化.md",
-    "有限元方法/20.png",
-    "有限元方法/19.png",
-    "有限元方法/18.png",
-    "有限元方法/17.png",
-    "有限元方法/16.png",
-    "有限元方法/15.png",
-    "布料模拟/基于有限元方法的布料模拟.md",
-    "基于有限元方法的布料模拟.md",
-    "19.png",
-    "18.png",
-    "17.png",
-    "16.png",
-    "有限元方法",
-    "新建文件夹",
-    "布料模拟/GAMES103-07-FEM.pptx",
-    "布料模拟/~$GAMES103-05-cloth.pptx",
-    "布料模拟/~$GAMES103-06-constraints.pptx",
-    "布料模拟/GAMES103-06-constraints.pptx",
-    "布料模拟/~$GAMES103-02-math.pptx",
-    "布料模拟/GAMES103-02-math.pptx",
-    "布料模拟/GAMES103-05-cloth.pptx"
+    "动画系统/蒙皮动画原理.md",
+    "现代游戏引擎技术/面向数据编程.md",
+    "现代游戏引擎技术",
+    "动画系统/动画重定向.md",
+    "动画系统/反向动力学.md",
+    "动画系统/面部动画.md",
+    "动画系统/动画混合.md",
+    "动画系统/动画压缩.md",
+    "特效系统/粒子系统的渲染.md",
+    "特效系统/粒子系统.md",
+    "物理系统/布料模拟.md",
+    "物理系统/布娃娃系统.md",
+    "物理系统/场景破坏.md",
+    "物理系统/场景请求.md",
+    "物理系统/载具模拟.md",
+    "物理系统/物理系统基本概念.md",
+    "物理系统/物理系统性能优化.md",
+    "物理系统/力学计算.md",
+    "物理系统/流体模拟.md",
+    "物理系统/碰撞检测.md",
+    "物理系统/角色控制器.md",
+    "物理系统/碰撞解决.md",
+    "特效系统/GPU粒子.md",
+    "特效系统/声音系统.md",
+    "特效系统/3D音频渲染.md",
+    "物理系统/PBD.md"
   ]
 }
