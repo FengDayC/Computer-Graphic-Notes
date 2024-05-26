@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3c275aee0e3469c2",
+        "id": "4b214eaece465b0d",
         "type": "tabs",
         "children": [
           {
-            "id": "631d3281ef23fe09",
+            "id": "8eff11e8eb09095b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "45c26e8c81135f1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md"
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md"
               }
             }
           },
@@ -180,22 +167,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45c26e8c81135f1e",
+  "active": "8eff11e8eb09095b",
   "lastOpenFiles": [
-    "论文阅读/Irradiance Caching and Radiance Caching/12.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/11.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/10.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
     "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
     "论文阅读/Irradiance Caching and Radiance Caching/A ray tracing solution for diffuse interreflection.md",
-    "论文阅读/Irradiance Caching and Radiance Caching/9.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/8.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/7.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/6.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/5.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/4.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/3.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/2.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/1.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/12.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/11.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/10.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/9.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/8.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/7.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/6.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/5.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/pics/4.png",
     "实时渲染/实时环境光照/基于图像的光照.md",
     "实时渲染/实时环境光照/环境光照的数学基础.md",
     "计算机图形学入门/光线追踪技术/传统光线追踪.md",
@@ -227,7 +214,6 @@
     "游戏引擎原理笔记/特效系统",
     "游戏引擎原理笔记/物理系统",
     "游戏引擎原理笔记/动画系统",
-    "游戏引擎原理笔记",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
