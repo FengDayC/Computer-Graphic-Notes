@@ -8,41 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4ee9818b49388c83",
+            "id": "631d3281ef23fe09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实时渲染/PBR材质/非真实感渲染.md",
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4eeddc795e392eb7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "实时渲染/实时全局光照/p203-dachsbacher.pdf"
-              }
-            }
-          },
-          {
-            "id": "631d3281ef23fe09",
+            "id": "45c26e8c81135f1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基于物理的计算机动画/碰撞/碰撞.md",
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4bb2d7edde84bfe9",
@@ -116,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基于物理的计算机动画/碰撞/碰撞.md",
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基于物理的计算机动画/碰撞/碰撞.md",
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +147,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基于物理的计算机动画/碰撞/碰撞.md"
+                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md"
+              }
+            }
+          },
+          {
+            "id": "37a137e7581583ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -169,62 +172,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "631d3281ef23fe09",
+  "active": "45c26e8c81135f1e",
   "lastOpenFiles": [
-    "基于物理的计算机动画/碰撞/7.png",
-    "基于物理的计算机动画/碰撞/QQ截图20230926101630.png",
-    "基于物理的计算机动画/碰撞/6.png",
-    "基于物理的计算机动画/碰撞/QQ截图20230926100936.png",
-    "基于物理的计算机动画/碰撞/5.png",
-    "基于物理的计算机动画/碰撞/QQ截图20230926100821.png",
-    "实时渲染/PBR材质/Disney材质模型.md",
-    "实时渲染/PBR材质/微表面模型的着色.md",
-    "游戏引擎原理笔记/物理系统/碰撞检测.md",
-    "游戏引擎原理笔记/物理系统/碰撞解决.md",
-    "基于物理的计算机动画/碰撞/碰撞.md",
-    "基于物理的计算机动画/碰撞/Robust Treatment of Collisions, Contact and Friction for Cloth Animation.pdf",
-    "基于物理的计算机动画/碰撞/4.png",
-    "基于物理的计算机动画/碰撞/QQ截图20230926093916.png",
-    "基于物理的计算机动画/碰撞/3.png",
-    "基于物理的计算机动画/碰撞/QQ截图20230926093511.png",
-    "基于物理的计算机动画/有限元方法/有限元方法.md",
-    "实时渲染/实时阴影技术/阴影贴图.md",
-    "基于物理的计算机动画/有限元方法/非线性优化.md",
-    "游戏引擎原理笔记/物理系统/物理系统基本概念.md",
-    "游戏引擎原理笔记/现代游戏引擎技术/面向数据编程.md",
-    "游戏引擎原理笔记/现代游戏引擎技术",
-    "游戏引擎原理笔记/特效系统/粒子系统的渲染.md",
+    "论文阅读/Irradiance Caching and Radiance Caching/12.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/11.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/10.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
+    "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
+    "论文阅读/Irradiance Caching and Radiance Caching/A ray tracing solution for diffuse interreflection.md",
+    "论文阅读/Irradiance Caching and Radiance Caching/9.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/8.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/7.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/6.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/5.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/4.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/3.png",
+    "论文阅读/Irradiance Caching and Radiance Caching/2.png",
+    "实时渲染/实时环境光照/基于图像的光照.md",
+    "实时渲染/实时环境光照/环境光照的数学基础.md",
+    "计算机图形学入门/光线追踪技术/传统光线追踪.md",
+    "计算机图形学入门/光线追踪技术/辐射度量学.md",
+    "计算机图形学入门/光线追踪技术/全局光照的计算（路径追踪）.md",
+    "计算机图形学入门/光线追踪技术/高级光线传播.md",
+    "计算机图形学入门/材质/高级材质.md",
+    "计算机图形学入门/材质/基于物理的材质.md",
+    "计算机图形学入门/颜色.md",
+    "计算机图形学入门/光栅化.md",
+    "计算机图形学入门/光场.md",
+    "计算机图形学入门/着色.md",
+    "计算机图形学入门/动画.md",
+    "游戏引擎原理笔记/动画系统/动画混合.md",
+    "论文阅读/Irradiance Caching and Radiance Caching",
+    "论文阅读",
+    "实时渲染/实时全局光照/世界空间全局光照.md",
+    "计算机图形学入门/成像.md",
     "游戏引擎原理笔记/特效系统/粒子系统.md",
     "游戏引擎原理笔记/特效系统/声音系统.md",
     "游戏引擎原理笔记/特效系统/GPU粒子.md",
-    "游戏引擎原理笔记/特效系统/3D音频渲染.md",
+    "游戏引擎原理笔记/物理系统/碰撞解决.md",
+    "游戏引擎原理笔记/物理系统/碰撞检测.md",
+    "游戏引擎原理笔记/物理系统/物理系统基本概念.md",
+    "实时渲染/实时阴影技术/shadows_egsr2004_revised.pdf",
+    "实时渲染/实时全局光照/p203-dachsbacher.pdf",
+    "基于物理的计算机动画/碰撞/Robust Treatment of Collisions, Contact and Friction for Cloth Animation.pdf",
+    "游戏引擎原理笔记/现代游戏引擎技术",
     "游戏引擎原理笔记/特效系统",
-    "游戏引擎原理笔记/物理系统/载具模拟.md",
-    "游戏引擎原理笔记/物理系统/角色控制器.md",
-    "游戏引擎原理笔记/物理系统/物理系统性能优化.md",
-    "游戏引擎原理笔记/物理系统/流体模拟.md",
-    "游戏引擎原理笔记/物理系统/布料模拟.md",
-    "游戏引擎原理笔记/物理系统/布娃娃系统.md",
-    "游戏引擎原理笔记/物理系统/场景请求.md",
-    "游戏引擎原理笔记/物理系统/场景破坏.md",
-    "游戏引擎原理笔记/物理系统/力学计算.md",
-    "游戏引擎原理笔记/物理系统/PBD.md",
     "游戏引擎原理笔记/物理系统",
     "游戏引擎原理笔记/动画系统",
     "游戏引擎原理笔记",
-    "基于物理的计算机动画/碰撞/2.png",
-    "基于物理的计算机动画/碰撞",
-    "实时渲染/实时全局光照/p203-dachsbacher.pdf",
-    "实时渲染/实时阴影技术/shadows_egsr2004_revised.pdf",
-    "基于物理的计算机动画",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
