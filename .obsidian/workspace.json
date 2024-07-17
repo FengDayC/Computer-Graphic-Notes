@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b214eaece465b0d",
+        "id": "a43bd070aa1d90a1",
         "type": "tabs",
         "children": [
           {
-            "id": "8eff11e8eb09095b",
+            "id": "122e541dfb32dfaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
+                "file": "次表面散射/体渲染基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4bb2d7edde84bfe9",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
+                "file": "次表面散射/体渲染基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
+                "file": "次表面散射/体渲染基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md"
+                "file": "次表面散射/体渲染基础.md"
               }
             }
           },
@@ -167,53 +166,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8eff11e8eb09095b",
+  "active": "122e541dfb32dfaa",
   "lastOpenFiles": [
-    "论文阅读/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
-    "论文阅读/Irradiance Caching and Radiance Caching/A ray tracing solution for diffuse interreflection.md",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/1.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/12.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/11.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/10.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/9.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/8.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/7.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/6.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/5.png",
-    "论文阅读/Irradiance Caching and Radiance Caching/pics/4.png",
+    "次表面散射/pics/2.png",
+    "次表面散射/体渲染基础.md",
+    "次表面散射/AI方法/Deep Scattering-Rendering Atmospheric Clouds with Radiance-Predicting Neural Networks.md",
+    "次表面散射/AI方法",
+    "PBRT/蒙特卡洛方法.md",
+    "实时渲染/实时全局光照/屏幕空间全局光照.md",
+    "实时渲染/实时环境光照/PRT.md",
     "实时渲染/实时环境光照/基于图像的光照.md",
     "实时渲染/实时环境光照/环境光照的数学基础.md",
-    "计算机图形学入门/光线追踪技术/传统光线追踪.md",
-    "计算机图形学入门/光线追踪技术/辐射度量学.md",
-    "计算机图形学入门/光线追踪技术/全局光照的计算（路径追踪）.md",
-    "计算机图形学入门/光线追踪技术/高级光线传播.md",
+    "实时渲染/实时光线追踪/实时光追核心原理.md",
+    "实时渲染/实时光线追踪/实时光追方法.md",
     "计算机图形学入门/材质/高级材质.md",
     "计算机图形学入门/材质/基于物理的材质.md",
-    "计算机图形学入门/颜色.md",
-    "计算机图形学入门/光栅化.md",
-    "计算机图形学入门/光场.md",
-    "计算机图形学入门/着色.md",
-    "计算机图形学入门/动画.md",
-    "游戏引擎原理笔记/动画系统/动画混合.md",
-    "论文阅读/Irradiance Caching and Radiance Caching",
-    "论文阅读",
-    "实时渲染/实时全局光照/世界空间全局光照.md",
+    "计算机图形学入门/光线追踪技术/全局光照的计算（路径追踪）.md",
     "计算机图形学入门/成像.md",
-    "游戏引擎原理笔记/特效系统/粒子系统.md",
-    "游戏引擎原理笔记/特效系统/声音系统.md",
-    "游戏引擎原理笔记/特效系统/GPU粒子.md",
-    "游戏引擎原理笔记/物理系统/碰撞解决.md",
-    "游戏引擎原理笔记/物理系统/碰撞检测.md",
-    "游戏引擎原理笔记/物理系统/物理系统基本概念.md",
-    "实时渲染/实时阴影技术/shadows_egsr2004_revised.pdf",
-    "实时渲染/实时全局光照/p203-dachsbacher.pdf",
-    "基于物理的计算机动画/碰撞/Robust Treatment of Collisions, Contact and Friction for Cloth Animation.pdf",
-    "游戏引擎原理笔记/现代游戏引擎技术",
-    "游戏引擎原理笔记/特效系统",
-    "游戏引擎原理笔记/物理系统",
-    "游戏引擎原理笔记/动画系统",
+    "计算机图形学入门/光线追踪技术/高级光线传播.md",
+    "计算机图形学入门/光线追踪技术/辐射度量学.md",
+    "计算机图形学入门/光线追踪技术/传统光线追踪.md",
+    "计算机图形学入门/颜色.md",
+    "计算机图形学入门/着色.md",
+    "计算机图形学入门/光栅化.md",
+    "计算机图形学入门/动画.md",
+    "计算机图形学入门/光场.md",
+    "PBRT/Untitled.md",
+    "PBRT/蒙特卡洛方法",
+    "PBRT",
+    "次表面散射/经典随机游走/经典随机游走.md",
+    "次表面散射/零方差理论/零方差理论.md",
+    "论文阅读/Sampling Path/Optimally Combining Sampling Techniques for Monte Carlo Rendering.md",
+    "次表面散射/零方差理论",
+    "次表面散射/经典随机游走",
+    "次表面散射/经典",
+    "次表面散射/pics/1.png",
+    "次表面散射/pics",
+    "次表面散射/新建文件夹",
+    "次表面散射",
+    "论文阅读/Substance Scattering",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/31.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/30.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/29.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/28.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/27.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/26.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/25.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/24.png",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/23.png",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
