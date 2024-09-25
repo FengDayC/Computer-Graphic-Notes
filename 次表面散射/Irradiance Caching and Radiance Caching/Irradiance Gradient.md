@@ -9,12 +9,12 @@
 
 # Rotational Gradient
 计算公式如下：
-![](论文阅读/Irradiance%20Caching%20and%20Radiance%20Caching/pics/10.png)
+![](次表面散射/Irradiance%20Caching%20and%20Radiance%20Caching/pics/10.png)
 
 # Translational Gradient
 计算公式如下：
-![](论文阅读/Irradiance%20Caching%20and%20Radiance%20Caching/pics/11.png)
+![](次表面散射/Irradiance%20Caching%20and%20Radiance%20Caching/pics/11.png)
 
 # 插值
 将以上两个梯度用于插值的公式如下：
-![](论文阅读/Irradiance%20Caching%20and%20Radiance%20Caching/pics/12.png)
+![](次表面散射/Irradiance%20Caching%20and%20Radiance%20Caching/pics/12.png)

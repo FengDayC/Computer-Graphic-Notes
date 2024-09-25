@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "6870ceeca1304192",
+    "type": "split",
+    "children": [
+      {
+        "id": "257746d2e21bf34a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1826c3e3d2cba168",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05a6fac70ba4ede6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffb07811d19612b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c95ba8a56556f82a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65be250f99dc97da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef7c153a10c8b1fe",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c5769c75bc0cf56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4bb2d7edde84bfe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "35f876088da50314",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f95636af77833d4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "703410e84b43976e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "321fe59ec04d5d03",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "98eff42c4e34a307",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "37a137e7581583ea",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1826c3e3d2cba168",
+  "lastOpenFiles": [
+    "实时渲染/实时环境光照/PRT.md",
+    "实时渲染/PBR材质/微表面模型的着色.md",
+    "实时渲染/PBR材质/Disney材质模型.md",
+    "实时渲染/PBR材质/微表面模型-Advanced.md",
+    "实时渲染/实时全局光照/世界空间全局光照.md",
+    "实时渲染/实时全局光照/屏幕空间全局光照.md",
+    "实时渲染/实时环境光照/基于图像的光照.md",
+    "实时渲染/实时环境光照/环境光照的数学基础.md",
+    "次表面散射/AI方法/Deep Real-time Volumetric Rendering Using Multi-feature Fusion 1.md",
+    "实时渲染/实时环境光照/环境光阴影.md",
+    "次表面散射/Irradiance Caching and Radiance Caching/Radiance Caching for Efficient Global Illumination Computation.md",
+    "次表面散射/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
+    "次表面散射/Irradiance Caching and Radiance Caching/Improved Radiance Gradient Computation.md",
+    "次表面散射/Irradiance Caching and Radiance Caching/A ray tracing solution for diffuse interreflection.md",
+    "次表面散射/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
+    "次表面散射/AI方法/Deep Scattering-Rendering Atmospheric Clouds with Radiance-Predicting Neural Networks.md",
+    "次表面散射/AI方法/Faster RPNN-Rendering Clouds with Latent Space Light Probes.md",
+    "次表面散射/AI方法/pics/10.png",
+    "次表面散射/AI方法/pics/8.png",
+    "次表面散射/AI方法/pics/4.png",
+    "次表面散射/AI方法/pics/2.png",
+    "次表面散射/AI方法/pics/1.png",
+    "计算机图形学入门/光线追踪技术/辐射度量学.md",
+    "计算机图形学入门/光线追踪技术/高级光线传播.md",
+    "计算机图形学入门/光线追踪技术/传统光线追踪.md",
+    "计算机图形学入门/光线追踪技术/全局光照的计算（路径追踪）.md",
+    "次表面散射/体渲染基础.md",
+    "次表面散射/AI方法/pics/9.png",
+    "次表面散射/AI方法/Deep Real-time Volumetric Rendering Using Multi-feature Fusion.md",
+    "次表面散射/AI方法/pics/7.png",
+    "次表面散射/pics/2.png",
+    "次表面散射/AI方法",
+    "PBRT/蒙特卡洛方法.md",
+    "实时渲染/实时光线追踪/实时光追核心原理.md",
+    "实时渲染/实时光线追踪/实时光追方法.md",
+    "PBRT/蒙特卡洛方法",
+    "PBRT",
+    "次表面散射/零方差理论",
+    "次表面散射/经典随机游走",
+    "次表面散射/经典",
+    "次表面散射/pics/1.png",
+    "次表面散射/pics",
+    "次表面散射/新建文件夹",
+    "次表面散射",
+    "论文阅读/Substance Scattering",
+    "次表面散射/Irradiance Caching and Radiance Caching/pics/31.png",
+    "未命名.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas"
+  ]
+}
