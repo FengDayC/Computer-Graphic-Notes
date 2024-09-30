@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "257746d2e21bf34a",
+        "id": "e710886dad6941be",
         "type": "tabs",
         "children": [
           {
-            "id": "1826c3e3d2cba168",
+            "id": "99f61010854f8092",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "实时渲染/实时环境光照/预计算辐射传输/Neural Precomputed Radiance Transfer.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "实时渲染/实时环境光照/预计算辐射传输/Neural Precomputed Radiance Transfer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "实时渲染/实时环境光照/预计算辐射传输/Neural Precomputed Radiance Transfer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "实时渲染/实时环境光照/预计算辐射传输/Neural Precomputed Radiance Transfer.md"
+              }
             }
           },
           {
@@ -158,54 +166,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1826c3e3d2cba168",
+  "active": "99f61010854f8092",
   "lastOpenFiles": [
-    "实时渲染/实时环境光照/PRT.md",
+    "Untitled.canvas",
+    "实时渲染/实时环境光照/预计算辐射传输/Neural Precomputed Radiance Transfer.md",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/9.png",
+    "实时渲染/实时环境光照/预计算辐射传输/All-Frequency Shadows Using Non-linear Wavelet Lighting Approximation.md",
+    "实时渲染/实时环境光照/预计算辐射传输/Triple Product Wavelet Integrals for All-Frequency Relighting.md",
+    "实时渲染/实时环境光照/预计算辐射传输/PRT总述.md",
+    "实时渲染/实时环境光照/基于图像的光照.md",
+    "实时渲染/实时环境光照/环境光照的数学基础.md",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/8.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/7.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/6.png",
+    "[pics/].md",
+    "[pics",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/5.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/4.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/3.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/1.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics/2.png",
+    "实时渲染/实时环境光照/预计算辐射传输/pics",
+    "实时渲染/实时环境光照/预计算辐射传输",
+    "次表面散射/体渲染基础.md",
+    "PBRT/蒙特卡洛方法.md",
+    "Untitled 1.canvas",
+    "计算机图形学入门笔记/光场.md",
+    "计算机图形学入门笔记/光线追踪技术/高级光线传播.md",
+    "计算机图形学入门笔记/光线追踪技术/传统光线追踪.md",
+    "计算机图形学入门笔记/光线追踪技术/辐射度量学.md",
+    "次表面散射/AI方法/Faster RPNN-Rendering Clouds with Latent Space Light Probes.md",
+    "次表面散射/AI方法/Deep Scattering-Rendering Atmospheric Clouds with Radiance-Predicting Neural Networks.md",
+    "次表面散射/AI方法/Deep Real-time Volumetric Rendering Using Multi-feature Fusion.md",
     "实时渲染/PBR材质/微表面模型的着色.md",
     "实时渲染/PBR材质/Disney材质模型.md",
     "实时渲染/PBR材质/微表面模型-Advanced.md",
     "实时渲染/实时全局光照/世界空间全局光照.md",
     "实时渲染/实时全局光照/屏幕空间全局光照.md",
-    "实时渲染/实时环境光照/基于图像的光照.md",
-    "实时渲染/实时环境光照/环境光照的数学基础.md",
     "次表面散射/AI方法/Deep Real-time Volumetric Rendering Using Multi-feature Fusion 1.md",
     "实时渲染/实时环境光照/环境光阴影.md",
     "次表面散射/Irradiance Caching and Radiance Caching/Radiance Caching for Efficient Global Illumination Computation.md",
     "次表面散射/Irradiance Caching and Radiance Caching/Irradiance&Radiance Caching框架.md",
-    "次表面散射/Irradiance Caching and Radiance Caching/Improved Radiance Gradient Computation.md",
-    "次表面散射/Irradiance Caching and Radiance Caching/A ray tracing solution for diffuse interreflection.md",
-    "次表面散射/Irradiance Caching and Radiance Caching/Irradiance Gradient.md",
-    "次表面散射/AI方法/Deep Scattering-Rendering Atmospheric Clouds with Radiance-Predicting Neural Networks.md",
-    "次表面散射/AI方法/Faster RPNN-Rendering Clouds with Latent Space Light Probes.md",
     "次表面散射/AI方法/pics/10.png",
-    "次表面散射/AI方法/pics/8.png",
-    "次表面散射/AI方法/pics/4.png",
-    "次表面散射/AI方法/pics/2.png",
-    "次表面散射/AI方法/pics/1.png",
-    "计算机图形学入门/光线追踪技术/辐射度量学.md",
-    "计算机图形学入门/光线追踪技术/高级光线传播.md",
-    "计算机图形学入门/光线追踪技术/传统光线追踪.md",
-    "计算机图形学入门/光线追踪技术/全局光照的计算（路径追踪）.md",
-    "次表面散射/体渲染基础.md",
-    "次表面散射/AI方法/pics/9.png",
-    "次表面散射/AI方法/Deep Real-time Volumetric Rendering Using Multi-feature Fusion.md",
-    "次表面散射/AI方法/pics/7.png",
-    "次表面散射/pics/2.png",
     "次表面散射/AI方法",
-    "PBRT/蒙特卡洛方法.md",
-    "实时渲染/实时光线追踪/实时光追核心原理.md",
-    "实时渲染/实时光线追踪/实时光追方法.md",
     "PBRT/蒙特卡洛方法",
     "PBRT",
     "次表面散射/零方差理论",
     "次表面散射/经典随机游走",
     "次表面散射/经典",
-    "次表面散射/pics/1.png",
     "次表面散射/pics",
-    "次表面散射/新建文件夹",
-    "次表面散射",
-    "论文阅读/Substance Scattering",
-    "次表面散射/Irradiance Caching and Radiance Caching/pics/31.png",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"

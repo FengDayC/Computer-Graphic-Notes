@@ -55,3 +55,15 @@ L(\mathbf{x},\mathbf{\omega}_o)=\mathbf{A}\mathbf{B}\mathbf{y}\\
 \mathbf{y}=(Y_1(\mathbf{\omega}_o)....Y_k(\mathbf{\omega}_o)....)^T
 \end{matrix}
 $$
+
+# 改进方向
+## 基的选择
++ 使用小波函数作为基进行压缩，可以恢复出全频率的光照细节：[[All-Frequency Shadows Using Non-linear Wavelet Lighting Approximation]]
+
+## 传播矩阵压缩
+
+## 可变观察方向
+
+## 可编辑材质
+
+## 动态场景和可形变物体
