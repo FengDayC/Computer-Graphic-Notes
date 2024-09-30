@@ -44,3 +44,35 @@ $$
 L=k_dL_D+k_sL_S
 \end{matrix}
 $$
+## Diffuse-Specular Separation
+最后一种结构将Diffuse和Specular的计算彻底分开，分别用不同的网络进行拟合，公式如下：
+$$
+\begin{matrix}
+L=k_d\Phi_D(\hat{\mathbf{s}}_D,\hat{\mathbf{e}})+k_s\Phi_S(\hat{\mathbf{s}}_S,\hat{\mathbf{e}})\\
+\hat{\mathbf{s}}_D=\mathcal{F}_T^D(\mathbf{x},\mathbf{n},k_d)\\
+\hat{\mathbf{s}}_S=\mathcal{F}_T^S(\mathbf{x},\mathbf{n},k_s,\mathbf{\omega}_o,\mathbf{\omega}_r,\alpha)\\
+\end{matrix}
+$$
+
+## 训练数据
+每个场景使用3000张使用Falcor引擎渲染的256x256的图片(包含图像和GBuffer)用于训练以及200张400x400的图片用于验证
+每个场景随机放置摄像机位置和随机选择摄像机方向
+# 结果
+## 不同方法的对比
+1. baseline方法难以捕获光源/视角相关的特性（因为他的输入是局部的，因此很难从局部信息推断出光源无关的光线传输结果），例如高光、阴影和多次反射光，因此baseline方法在有着更多的与时间相关的artifact。PRT-Inspired方法通过将光线传播分开来，很好地解决了这一问题。
+2. 后面两个方法，分开了漫反射项和光滑项，使得网络可以学习不受albedo影响的辐射分布，并且更加连贯。
+3. 最后一个完全分开的方法:Diffuse网络更专注于位置相关的输入，而Glossy网络更专注于方向相关的输入
+从算法准确度来说，完全分开的方法与Ground Truth的差别最小：
+![](pics/10.png)
+## 与现有方法的对比
+1. 与实时光追对比：远不如Ours
+2. 与Neural Radiance Caching对比：不如Ours
+3. 与Deep Shading's U-Net对比：baseline效果好于U-Net
+4. 与原始PRT对比：远好于
+
+# 局限
+1. 效果依赖于训练输入的摄像机位置和视角，可能可以通过更好地布置摄像机的策略解决
+
+# 思考
++ 第四种方法要将光线传播过程$\hat{s}$进行了拆分，这是不太有道理的，因为diffuse和specular仅仅在最后一步反射有所区别，而各个方向入射的光线是没有区别的，因此有可能只对最后一步反射函数$\Phi$进行区分效果会更好
++ 光线传播过程$S$中蕴含了整个场景的几何信息，单使用G-Buffer的信息来训练可能会让网络无法正确预测场景中的几何关系（例如多重反射和遮挡）
