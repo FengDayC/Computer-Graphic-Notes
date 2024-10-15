@@ -59,7 +59,7 @@ $$
 # 改进方向
 ## 基的选择
 + 使用小波函数作为基进行压缩，可以恢复出全频率的光照细节：[[All-Frequency Shadows Using Non-linear Wavelet Lighting Approximation]]
-
++ 使用球面高斯函数作为基，实现更快的计算、支持旋转和全频光照细节：[[All-Frequency Rendering of Dynamic, Spatially-Varying Reflectance]]
 ## 传播矩阵压缩
 
 ## 可变观察方向
@@ -67,3 +67,7 @@ $$
 ## 可编辑材质
 
 ## 动态场景和可形变物体
+
+## AI方法
++ 使用AI直接预测光照结果：[[Neural Precomputed Radiance Transfer]]
++ 使用AI（隐式）基来作为基函数：[[Lightweight Neural Basis Functions for All-Frequency Shading]]
