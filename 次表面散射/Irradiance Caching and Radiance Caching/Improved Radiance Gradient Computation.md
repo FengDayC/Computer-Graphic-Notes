@@ -3,6 +3,6 @@
 
 # 算法描述
 采样区域如下所示：
-![](30.png)
+![](次表面散射/Irradiance%20Caching%20and%20Radiance%20Caching/pics/30.png)
 计算出的在$\mathbf{u_k}与\mathbf{v_k}$方向的偏导数如下：
-![](31.png)
+![](次表面散射/Irradiance%20Caching%20and%20Radiance%20Caching/pics/31.png)
