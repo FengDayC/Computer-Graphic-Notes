@@ -35,17 +35,19 @@ $$
 限制：
 + 推理时间较久局限于静态场景
 + 神经网络对于高频信息学习有限
-
 ### [[Dynamic Neural Radiosity with Multi-grid Decomposition]]
 思想：通过将NR中的空间特征场进行拆分，实现了对低维动态场景的支持。
 限制：
 + 存在一定噪声，尤其是高频信息
 + 局限于低维动态场景
-
 ### [[Real-time Neural Rendering of Dynamic Light Fields]]
 思想：加入了时间变量，实现了对1维动态场景的支持
 限制：
 + 动态场景变化小
+
+## 纯神经渲染
+### [[RenderFormer-Transformer-based Neural Rendering of Triangle Meshes with Global Illumination]]
+
 
 ## 神经探针
 ### [[Neural Light Grid]]
@@ -69,3 +71,15 @@ $$
 ## 动态场景的处理方式
 + 有限动态：把所有能动的部分全部使用插值的形式表达，插值参数组成一个场景向量
 + 预定动态：直接规定每一个时刻，场景每部分的位置
+
+$$
+r_\theta(x,\omega_o,v)=\underbrace{L_\theta(x,\omega_o,v)}_{\text{Left Hand Side}}-\underbrace{(L_e(x,\omega_o,v)+\int_{\mathcal{H}^2}f(x,\omega_i,\omega_o)L_\theta(x',-\omega_i,v)(n\cdot\omega_i)d\omega_i)}_{\text{Right Hand Side}}
+$$
+
+$$
+\begin{array}\\
+RHS = \sum_{j=1}^N\frac{f(x,\omega_{ij},\omega_o)L_\theta(x',-\omega_{ij})(n\cdot\omega_{ij})}{pdf(x,\omega_{ij})}\\
+pdf(x',\omega_{ij})\propto L_\theta(x',-\omega_{ij})
+\end{array}
+$$
+

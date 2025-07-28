@@ -33,3 +33,6 @@
 [[Practical Path Guiding for Efficient Light-Transport Simulation]]
 # 零方差路径引导
 [[Volume Path Guiding based on Zero-Variance Random Walk Theory]]
+
+# 神经方法
+[[Efficient Neural Path Guiding with 4D Modeling]]
