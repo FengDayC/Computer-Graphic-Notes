@@ -12,7 +12,7 @@ $$
 ## 世界空间
 ### [[Dynamic Voxel-Based Global Illumination]]
 
-# 神经渲染
+# 辐射度预测
 ## 编码对象
 ### [[NeLT Object-Oriented Neural Light Transfer]]
 思想：通过一个个添加对象，编码GI的变化函数，得到GI结果
@@ -49,9 +49,13 @@ $$
 ### [[RenderFormer-Transformer-based Neural Rendering of Triangle Meshes with Global Illumination]]
 
 
-## 神经探针
+# 探针
 ### [[Neural Light Grid]]
 + 直接用神经网络编码光照探针
+### [[Gaussian Compression for Precomputed Indirect Illumination]]
++ 使用高斯函数压缩探针信息，把球谐函数压缩为高斯参数
+### [[WishGI Lightweight Static Global Illumination Baking via Spherical Harmonics Fitting]]
++ 在物体表面放置探针，无须片元阶段即可得到全局光照结果
 
 # 未解决的问题
 + 多动态物体场景
