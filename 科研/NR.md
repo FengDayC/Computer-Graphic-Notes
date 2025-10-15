@@ -12,13 +12,6 @@ $$
 对这个KL散度计算梯度：$\nabla_{\hat{\Theta}} D_{\mathrm{KL}} \approx - \frac{1}{N} \sum_{j=1}^{N} \frac{\mathcal{D}(\omega_{j})\nabla_{\hat{\Theta}} \mathcal{V}(\omega_{j} \mid \hat{\Theta})}{\tilde{p}(\omega_{j})\mathcal{V}(\omega_{j} \mid \hat{\Theta})} \propto - \frac{1}{N} \sum_{j=1}^{N} \frac{L(\omega_{j})\nabla_{\hat{\Theta}} \mathcal{V}(\omega_{j} \mid \hat{\Theta})}{\tilde{p}(\omega_{j})\mathcal{V}(\omega_{j} \mid \hat{\Theta})}$
 有了这个梯度，每次我可以求多个样本$L(x,\omega)$，我的模型优化思路应该是怎样的
 
-# 实现细节
-+ render中直接使用了additional ray tracing后的位置和方向，但pdf使用的是原始pdf
-+ vMF预测的是世界空间方向
-
-# 问题排查
-+ sample带梯度
-+ 采样pdf太大
-+ 辐射度太大
-+ L_samples为0/vmf_pdf为0导致数值崩溃
-+ 先让主模型稳定再开始训练NPM
+# 尝试
++ 采用样本权重
++ 反向topk

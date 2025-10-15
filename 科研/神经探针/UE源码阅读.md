@@ -1,12 +1,12 @@
 # 结论
 ## 发现
 + 探针信息保存在FPrecomputedVolumetricLightmapData结构体(文件:Engine\Source\Runtime\Engine\Public\PrecomputedVolumetricLightmap.h)里面，通过FPrecomputedVolumetricLightmap::AddToScene(文件：Engine\Source\Runtime\Engine\Private\PrecomputedVolumetricLightmap.cpp)加载到场景中，调用堆栈如下：
-![](pics/6.png)
+![](科研/神经探针/pics/6.png)
 + 这个探针数据是从关卡的BuiltData加载来的(可能可以直接读取这个文件取得)
 + Shader代码中直接插值附近探针的球谐向量并且拿来恢复Diffuse，所以会漏光
 ## FPrecomputedVolumetricLightmapData结构
 一个场景中的实际数据：
-![](pics/4.png)
+![](科研/神经探针/pics/4.png)
 
 ### 大致可以确定含义的一些参数
 + Bounds：包围盒
@@ -50,11 +50,11 @@ float3 ComputeVolumetricLightmapBrickTextureUVs(float3 WorldPosition) // RT_LWC_
 # Shader寻找过程
 
 在Engine\Shaders\Private\VolumetricLightmapShared.ush中，有获取FThreeBandSHVectorRGB的函数GetVolumetricLightmapSH3，这个函数返回了一个球谐向量(rgb每个通道一共有4+4+1=9个球谐系数，**初步判断使用了012三层球谐函数**):
-![](pics/2.png)
+![](科研/神经探针/pics/2.png)
 从这个函数出发开始寻找
 ## 向下层寻找
 在Engine\Shaders\Private\BasePassPixelShader.usf的GetPrecomputedIndirectLightingAndSkyLight函数中，调用了GetVolumetricLightmapSH3，得到的球谐向量与计算好的球谐基函数点乘，得到了恢复好的漫反射光照OutDiffuseLighting(应该是辐照度):
-![](pics/3.png)
+![](科研/神经探针/pics/3.png)
 这段Shader代码应该对应的BasePass的片元着色器，是用来上色的
 
 ### 球谐函数的阶数
@@ -216,5 +216,5 @@ const FPrecomputedVolumetricLightmapData* VolumetricLightmapData = Scene->Volume
 ### GVolumetricLightmapBrickAtlas
 这个变量定义在Engine\Source\Runtime\Engine\Private\PrecomputedVolumetricLightmap.cpp中，但是没有找到对其进行赋值的代码。
 对其数据类型FVolumetricLightmapBrickAtlas的Insert函数进行断点，发现在PrecomputedVolumetricLightmap.cpp的SetData中对其进行了调用，其参数NewData保存了CPU端的体数据
-![](pics/4.png)
+![](科研/神经探针/pics/4.png)
 AddToScene的上一级函数是SetData函数，一路向上找可以发现从场景BuiltData中得到的探针信息

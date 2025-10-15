@@ -7,35 +7,35 @@
 # 方法
 ## 布料模型
 本文采用SpongeCake的布料模型，布料的BRDF如下：
-![](论文/Siggraph/pics/1.png)
-![](论文/Siggraph/pics/2.png)
+![](论文/Material/pics/1.png)
+![](论文/Material/pics/2.png)
 与其他微表面模型类似，布料的微表面模型也分为Specular和Diffuse两项，不同主要体现为：
 + 在Diffuse项中，有两个兰伯特项，通过权重系数$w$来混合，$n_p$是宏观表面的法线，$n_s$是**ply**的法线，这两个法线通过引入一个新高度场调整参数$\beta$来影响
 + 法线分布函数中，$\alpha$为粗糙度，$S=diag(1,1,\alpha^2)$
 + $T_\rho$对布料来说恒为2
 上述结构是一个微结构(比像素还要小的结构)，因此其在宏观上的表现需要引入一个多尺度的表示，并且需要一个将其有效聚合起来的方法。[[A Realistic Surface-Based Cloth Rendering Model]]将一个patch的布料聚合成为一个BSDF，公式如下：
-![](论文/Siggraph/pics/3.png)
-![](论文/Siggraph/pics/4.png)
-![](论文/Siggraph/pics/5.png)
+![](论文/Material/pics/3.png)
+![](论文/Material/pics/4.png)
+![](论文/Material/pics/5.png)
 $p$相当于一个小面元，$k_\mathcal{P}(p)$相当于其面积，利用这个面元对整个patch进行积分得到BSDF。$A(p,\omega_o)$是出射方向的可见投影面积。$n_f(\mathcal{P})$表示整个patch的可见平均法线。
 ## 动机
 使用上述模型进行实时渲染的瓶颈在于快速计算一个patch的BSDF。本文将用一个神经网络来完成，这个神经网络需要满足：可编辑、快速推理、可以兼容表示多种布料。**由于布料往往拥有重复的模式，因此可以直接通过参数来表达而非通过随空间变化的贴图。**
 ## 数学定义
 首先将BSDF根据两种性质(Specular/Diffuse+weft/warp)拆分成为四个部分，再将BSDF表示为这四个部分的线性组合，这样就实现了通过四个参数来控制材质：
-![](论文/Siggraph/pics/6.png)
-![](论文/Siggraph/pics/7.png)
+![](论文/Material/pics/6.png)
+![](论文/Material/pics/7.png)
 于是要解决的问题就变成了一个映射：
-![](论文/Siggraph/pics/8.png)
+![](论文/Material/pics/8.png)
 进一步地，问题转为：基于空间无关的几何参数$n_p,t_p$和表面参数$\alpha,\beta$和空间相关参数$\omega_o,\omega_i,\mathcal{P}$来计算四个表征BSDF的值。
 
 ## 网络设计
-![](论文/Siggraph/pics/9.png)
+![](论文/Material/pics/9.png)
 编码器部分，输出一个表示材质信息的潜在向量。空间相关信息，将空间位置加上patch的大小$\mathcal{P}$进行one-blob编码，得到一个24维向量，拼接上材质向量输入解码器。解码器先解码出来空间相关的材质信息，再拼接上光线入射角和光线出射角(入射角为xyz，这是因为考虑到透射的情况下z值可能为负)，输出最后的解码部分得到BSDF。
 
 ## 网络训练
 Specular项和Diffuse项使用不同的损失，Specular项的损失是一个改进后的均方差损失，其中$g(x)=ln(kx+1)$，Diffuse项用的是普通的均方差损失，总的损失函数是这二者通过超参数进行的线性组合。
-![](论文/Siggraph/pics/10.png)
-![](论文/Siggraph/pics/11.png)
+![](论文/Material/pics/10.png)
+![](论文/Material/pics/11.png)
 ## 实时渲染与编辑
 预处理阶段将所有的材质编码为潜在空间的向量，实时渲染时直接获取这个向量，拼接上空间信息，输入解码器进行推理即可得到BSDF的四个表征参数。
 编辑除了体现在对BSDF四个表征参数的线性组合(改变k值)之外，如果要动其他材质参数，只需重新运行一次Encoder，但仍然是实时的。

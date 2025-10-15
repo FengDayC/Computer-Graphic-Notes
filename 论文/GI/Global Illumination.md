@@ -8,8 +8,10 @@ $$
 
 # 传统渲染
 ## 屏幕空间
+## [[屏幕空间全局光照]]
 
 ## 世界空间
+### [[世界空间全局光照]]
 ### [[Dynamic Voxel-Based Global Illumination]]
 
 # 辐射度预测
@@ -25,6 +27,8 @@ $$
 限制：
 + 大尺度场景下收到分辨率的限制
 + 多动态物体影响推理效率
+### [[Dual-Band Feature Fusion for Neural Global Illumination with Multi-Frequency Reflections]]
+思想：在编码对象的基础上加入对first-hit gbuffer和reflection gbuffer的混合，从而更好去学习高频信息（尤其是反射信息）
 ## 编码场景信息
 ### [[Active Exploration for Neural Global Illumination of Variable Scenes]]
 思想：采用一个统一的大网络对GI信息进行编码，输入GBuffer，输出GI结果。在训练阶段，通过对场景变量的主动探索，边训练边生成样本，引导网络学习更多有效样本。(与PG的思路有点像)
