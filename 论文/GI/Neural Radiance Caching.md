@@ -35,3 +35,6 @@ a_0=\frac{||x_{i-1}-x{i}||^2}{4\pi|(n\cdot\omega_i)|}
 $$
 当满足：$a(x_1....x_n)>c\cdot a_0$时停止路径，其中$c$为超参数。
 事实上，这个面积表征了相机上一个像素（一条光线）所投射到场景上的面积。
+$$
+w_i(P)=\frac{||x_{1}-x_{0}||^2}{4\pi|(n\cdot\omega_i)|}\cdot(\sum_{i=2}^n\sqrt{\frac{||x_{i-1}-x_{i}||^2}{p_{BSDF}(\omega_i|x_{i-1,\omega})|(n\cdot\omega_i)|}})^2
+$$
